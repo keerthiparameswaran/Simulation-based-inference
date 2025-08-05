@@ -11,9 +11,9 @@ Using simulation data and neural posterior estimation, the goal is to approximat
 ## 🚀 Goals
 
 - Simulate 3-body trajectories
+- Visualize trajectories
 - Use SBI to infer initial conditions
-- Evaluate posterior quality and convergence
-- Visualize posterior samples and trajectories
+- Evaluate posterior estimation
 
 ## 🧰 Technologies Used
 ....
