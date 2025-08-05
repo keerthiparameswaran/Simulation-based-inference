@@ -23,5 +23,12 @@ Using simulation data and neural posterior estimation, the goal is to approximat
 
 ```bash
 git clone https://github.com/chandanreddy10/Simulation-based-inference.git
-cd Simulation-based-inference```
-
+cd Simulation-based-inference
+```
+```bash
+python -m venv venv
+source venv/bin/activate 
+```
+```bash
+pip install -r requirements.txt
+```
