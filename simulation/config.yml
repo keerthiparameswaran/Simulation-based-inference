@@ -1,0 +1,21 @@
+simulation:
+  mass: 100
+  num_bodies: 3
+  G: 1.0
+  alpha: 0.5
+  t_start: 0.0
+  t_end: 10.0
+  time_steps: 500
+
+velocity_std:
+  - 1.0
+  - 1.0
+  - 0.1
+
+noise:
+  apply: true
+  std_dev: 0.001
+
+remove_initial:
+  apply: true
+  time: 2.0  

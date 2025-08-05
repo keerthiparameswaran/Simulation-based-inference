@@ -1,0 +1,7 @@
+plotly== 6.2.0
+tensorflow==2.19.0
+scipy==1.15.2
+PyYAML==6.0.2
+numpy==1.26.4
+keras==3.10.0
+bayesflow==2.0.5
