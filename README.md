@@ -1,2 +1,34 @@
-# Simulation-based-inference
-Code repository using simulation based inference techniques on 3 body problem.
+# 🪐 Simulation-Based Inference (3-Body Problem)
+
+> **Note**: This repository is a work in progress 🚧
+
+## 📖 Overview
+
+This project explores simulation-based inference (SBI) for solving the **3-body problem** — a classic problem in physics involving the motion of three celestial bodies under mutual gravitational influence.
+
+Using simulation data and neural posterior estimation, the goal is to approximate the posterior distribution over parameters given observational data, enabling inference in cases where the likelihood is intractable.
+
+## 🚀 Goals
+
+- Simulate 3-body trajectories
+- Visualize trajectories
+- Use SBI to infer initial conditions
+- Evaluate posterior estimation
+
+## 🧰 Technologies Used
+....
+## ⚙️ Setup
+
+### Clone the repository
+
+```bash
+git clone https://github.com/chandanreddy10/Simulation-based-inference.git
+cd Simulation-based-inference
+```
+```bash
+python -m venv venv
+source venv/bin/activate 
+```
+```bash
+pip install -r requirements.txt
+```
