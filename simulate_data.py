@@ -29,11 +29,11 @@ def tb_simulator(
 
 
 simulator = bf.make_simulator([prior, tb_simulator])
-train_data = simulator.sample(20)
+train_data = simulator.sample(1000)
 train_data = {k: v.tolist() for k, v in train_data.items()}
 
 print("Generated Train data.")
-test_data = simulator.sample(2)
+test_data = simulator.sample(100)
 test_data = {k: v.tolist() for k, v in test_data.items()}
 
 print("Generated Test data")
